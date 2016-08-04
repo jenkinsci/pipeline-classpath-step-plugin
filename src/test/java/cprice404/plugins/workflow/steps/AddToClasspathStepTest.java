@@ -33,6 +33,7 @@ public class AddToClasspathStepTest {
         File resourcesDir = new File("./src/test/resources/cprice404/plugins/workflow/steps/add_to_classpath_step_test");
         p.setDefinition(new CpsFlowDefinition("stage 'hello there'\n" +
                 "addToClasspath '" + resourcesDir.getAbsolutePath() + "/src'\n" +
+                "import cprice404.classpath.TestClass\n" +
                 "echo 'classpath updated'\n" +
                 "node {\n" +
                 "  foo = load '" + resourcesDir.getAbsolutePath() + "/scripts/foo.groovy'\n" +
