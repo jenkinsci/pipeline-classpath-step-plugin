@@ -14,6 +14,13 @@
     <packaging>hpi</packaging>
     <name>Pipeline: Classpath Steps</name>
 
+    <scm>
+      <connection>scm:git:ssh://github.com/jenkinsci/pipeline-classpath-step-plugin.git</connection>
+      <developerConnection>scm:git:ssh://git@github.com/jenkinsci/pipeline-classpath-step-plugin.git</developerConnection>
+      <url>https://github.com/jenkinsci/pipeline-classpath-step-plugin</url>
+      <tag>HEAD</tag>
+    </scm>
+
     <licenses>
         <license>
             <name>The Apache Software License, Version 2.0</name>
