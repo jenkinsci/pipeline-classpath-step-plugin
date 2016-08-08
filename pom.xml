@@ -10,7 +10,7 @@
     </parent>
     <groupId>cprice404</groupId>
     <artifactId>pipeline-classpath</artifactId>
-    <version>0.1.0-SNAPSHOT</version>
+    <version>0.1.0</version>
     <packaging>hpi</packaging>
     <name>Pipeline: Classpath Steps</name>
 
@@ -18,7 +18,7 @@
       <connection>scm:git:ssh://github.com/jenkinsci/pipeline-classpath-step-plugin.git</connection>
       <developerConnection>scm:git:ssh://git@github.com/jenkinsci/pipeline-classpath-step-plugin.git</developerConnection>
       <url>https://github.com/jenkinsci/pipeline-classpath-step-plugin</url>
-      <tag>HEAD</tag>
+      <tag>pipeline-classpath-0.1.0</tag>
     </scm>
 
     <licenses>
