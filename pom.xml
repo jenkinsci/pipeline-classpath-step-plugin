@@ -21,6 +21,13 @@
             <distribution>repo</distribution></license>
     </licenses>
     <url>https://wiki.jenkins-ci.org/display/JENKINS/Pipeline+Classpath+Step+Plugin</url>
+    <developers>
+      <developer>
+        <id>cprice404</id>
+        <name>Chris Price</name>
+        <email>chris@puppet.com</email>
+      </developer>
+    </developers>
 
     <repositories>
         <repository>
