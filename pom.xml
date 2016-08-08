@@ -20,6 +20,7 @@
             <url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
             <distribution>repo</distribution></license>
     </licenses>
+    <url>https://wiki.jenkins-ci.org/display/JENKINS/Pipeline+Classpath+Step+Plugin</url>
 
     <repositories>
         <repository>
