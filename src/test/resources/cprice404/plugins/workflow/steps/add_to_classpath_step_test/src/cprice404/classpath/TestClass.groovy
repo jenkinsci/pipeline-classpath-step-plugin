@@ -1,6 +1,6 @@
 package cprice404.classpath
 
-class TestClass {
+class TestClass implements Serializable {
     void sayHello() {
         "Hello From Test Class!"
     }
