@@ -32,12 +32,12 @@ public class AddToClasspathStepTest {
         WorkflowJob p = r.jenkins.createProject(WorkflowJob.class, "p");
         File resourcesDir = new File("./src/test/resources/cprice404/plugins/workflow/steps/add_to_classpath_step_test");
         p.setDefinition(new CpsFlowDefinition("stage 'hello there'\n" +
-                "addToClasspath '" + resourcesDir.getAbsolutePath() + "/src'\n" +
-                "echo 'classpath updated'\n" +
                 "node {\n" +
+                "  addToClasspath '" + resourcesDir.getAbsolutePath() + "/src'\n" +
+                "  echo 'classpath updated'\n" +
                 "  foo = load '" + resourcesDir.getAbsolutePath() + "/scripts/foo.groovy'\n" +
                 "}\n" +
-                "echo foo",
+                "echo foo.sayHello()",
                 true));
         WorkflowRun b = r.assertBuildStatusSuccess(p.scheduleBuild2(0));
         List<LogAction> logActions = new ArrayList<LogAction>();
